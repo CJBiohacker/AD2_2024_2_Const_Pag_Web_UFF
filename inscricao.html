@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Stoke:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/geral.css">
+    <title>Academia Halteres Seus Hábitos - Inscrição</title>
+</head>
+
+<body>
+    <header>
+        <img class="imgLogo" src="./imagens/HalteresSeusHabitosTopo.png" alt="Logo Academia">
+        <address class="ender">
+            Estrada do Puxa Ferro, 12<br>
+            Tel:(21) 96729-0452<br>
+            <a href="mailto:cj.moyses@gmail.com" target="_blank">cj.moyses@gmail.com</a>
+        </address>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="apresentacao.html" target="_self">Apresentação</a></li>
+            <li><a href="planos.html" target="_self">Planos</a></li>
+            <li><a href="equipamentos.html" target="_self">Equipamentos</a></li>
+            <li><a href="inscricao.html" target="_self">Inscrição</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1 class="titulo">Inscrição</h1>
+
+        <form class="formul" action="#" method="post">
+            <fieldset class="fsPessoal">
+                <legend>Dados Pessoais</legend>
+                <div class="ColEsqPes">
+                    <div class="linhaNome">
+                        <label for="nome">Nome:</label>
+                        <input class="inpNome" id="nome" name="nome" type="text" placeholder="Digite seu nome"
+                            maxlength="35">
+                    </div>
+                    <div class="linhaDados">
+                        <fieldset class="fsGenero">
+                            <legend>Gênero</legend>
+                            <div>
+                                <input id="genero" name="genero" type="radio">
+                                <label for="genero">Masculino</label>
+                            </div>
+                            <div>
+                                <input id="genero" name="genero" type="radio">
+                                <label for="genero">Feminino</label>
+                            </div>
+                            <div>
+                                <input id="genero" name="genero" type="radio">
+                                <label for="genero">Outro</label>
+                            </div>
+                        </fieldset>
+                        <div>
+                            <label for="telefone">Telefone:</label>
+                            <input class="inpTelef" id="telefone" name="telefone" type="tel"
+                                placeholder="Ex: 2126881478">
+                        </div>
+                        <div>
+                            <label for="celular">Celular:</label>
+                            <input class="inpTelef" id="celular" name="celular" type="tel" placeholder="Ex:2196724587">
+                        </div>
+                        <div>
+                            <label for="idade">Idade:</label>
+                            <input class="numDD" id="idade" name="idade" type="number">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="fsMatricula">
+                <legend>Matrícula</legend>
+                <div class="ColDirMat">
+                    <div>
+                        <label for="matricula">Número:</label>
+                        <input class="inpMat" id="matricula" name="matricula" type="text">
+                    </div>
+
+                    <label for="plano">Plano:</label>
+                    <select name="plano" id="plano">
+                        <option value="vazio">-------</option>
+                        <option value="anual">Anual</option>
+                        <option value="semestral">Semestral</option>
+                        <option value="mensal">Mensal</option>
+                    </select>
+                </div>
+
+                <div class="ColEsqMat">
+                    <div>
+                        <label for="matriculado">Matriculado?</label>
+                        <input id="matriculado" name="matriculado" type="checkbox">
+                    </div>
+
+                    <div>
+                        <label for="atividade">Atividade:</label>
+                        <select name="atividade" id="atividade">
+                            <option value="vazio">-------</option>
+                            <option value="academia">Academia</option>
+                            <option value="nataçao">Natação</option>
+                            <option value="combo">Combo</option>
+                        </select>
+                    </div>
+                </div>
+
+
+
+                <fieldset class="fsCartao">
+                    <legend>Cartão</legend>
+                    <div>
+                        <label for="cartao">Bandeira:</label>
+                        <input id="visa" name="cartao" type="radio">
+                        <label for="visa">Visa</label>
+                        <input id="master" name="cartao" type="radio">
+                        <label for="master">Master</label>
+                        <input id="elo" name="cartao" type="radio">
+                        <label for="elo">Elo</label>
+                    </div>
+                    <div>
+                        <label for="validade">Validade:</label>
+                        <input class="numDD" id="validade" name="mes" type="number">
+                        /
+                        <input class="numQD" id="validade" name="ano" type="number">
+                    </div>
+                    <div>
+                        <label for="numCartao">Número:</label>
+                        <input class="inpNCC" id="numCartao" name="numCartao" type="text" maxlength="12" pattern="[0-9]"
+                            placeholder="1111222233334444">
+                    </div>
+                </fieldset>
+
+                <div class="ColDirMat">
+                    <label for="valor">Valor: R$</label>
+                    <input class="inpVal" id="valor" name="valor" type="text">
+                </div>
+
+                <div class="ColValTot">
+                    <button type="menu" value="Plano">Matrícula+Combo</button>
+                </div>
+            </fieldset>
+
+            <div style="margin-top: 10px;">
+                <div class="entDireita">
+                    <button type="submit" value="Enviar">Enviar</button>
+                    <button type="reset" value="Limpar">Limpar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

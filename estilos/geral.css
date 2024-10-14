@@ -1,0 +1,244 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://use.typekit.net/bjt7dew.css");
+
+@font-face {
+    font-family: 'Lucida Bright';
+    src: url('../fontes/Lucida\ Bright/lucidabright_demi.ttf') format('truetype');
+}
+
+/* Estilos Gerais */
+
+body {
+    background-color: #DDCC55;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'stoke', 'Lucida Bright', 'liberation-sans';
+}
+
+header {
+    display: block;
+    margin-bottom: 1px;
+}
+
+ol,
+ul {
+    line-height: 200%;
+}
+
+.ender {
+    float: right;
+    text-align: end;
+    line-height: 140%;
+    font-size: 14px;
+    font-family: 'karla', 'Verdana', 'Lucida Bright';
+}
+
+.imgLogo {
+    border-bottom: #000000;
+    border-bottom-style: solid;
+    margin-bottom: 6px;
+    padding-bottom: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #222222;
+}
+
+a:visited {
+    color: #222222;
+}
+
+nav {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+nav ul {
+    color: #000000;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: square;
+}
+
+section {
+    display: block;
+    width: 70%;
+    float: right;
+}
+
+/* Estilo página de Apresentação */
+.apres {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Estilo página de Planos */
+h4 {
+    font-size: 14px;
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.listaPlano {
+    width: 300px;
+    color: #202020;
+    background-color: #EEEEBB;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 30px;
+    border: #202020 solid 3px;
+}
+
+.listaPlano ul {
+    list-style-type: square;
+}
+
+.listaPlano ol {
+    color: #202020;
+    list-style-type: lower-alpha;
+}
+
+.listaPlano .preco,
+.preco {
+    color: #CC0000;
+}
+
+/* Estilos página de Equipamentos */
+.tabEquip {
+    border: solid 1px;
+    width: 510px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.tabEquip th {
+    border: solid 1px;
+    padding: 10px;
+}
+
+.tabEquip td {
+    border: #000000 solid 1px;
+    padding: 10px;
+    /* color: #EEEEBB; */
+    font-size: 12px;
+}
+
+.tabEquip .imgCel {
+    width: 100px;
+    background-color: #FFFFFF;
+}
+
+.imgCel img {
+    width: 100px;
+    height: 100px;
+}
+
+.tabTitulo {
+    background-color: #402020;
+    color: #FFFFFF;
+}
+
+.tabSubTit {
+    background-color: #802020;
+    color: #FFFFFF;
+}
+
+/* Estilos página de Inscrição */
+.formul {
+    width: 400px;
+    margin: 10px auto 0 auto;
+    padding: 20px 0 30px 0;
+    color: #202020;
+    background-color: #EEEEBB;
+    border: #202020 solid 3px;
+    font-size: 12px;
+}
+
+.formul .fsPessoal,
+.fsMatricula {
+    width: 340px;
+    margin: 0 auto;
+}
+
+.formul .fsPessoal .ColEsqPes {
+    display: block;
+    width: 70px;
+    float: left;
+}
+
+.formul .fsPessoal .ColEsqPes .linhaNome {
+    width: 340px;
+    height: 30px;
+    padding-top: 8px;
+}
+
+.formul .inpNome {
+    width: 220px;
+}
+
+.formul .numDD {
+    width: 35px;
+}
+
+.formul .numQD,
+.inpVal {
+    width: 50px;
+}
+
+.formul .inpNCC {
+    width: 130px;
+}
+
+.formul .inpTelef {
+    width: 90px;
+}
+
+.formul .inpMat {
+    width: 70px;
+}
+
+.formul .fsPessoal .ColEsqPes .linhaDados {
+    width: 340px;
+    /* height: 140px; */
+}
+
+.formul .fsPessoal .ColEsqPes .linhaDados .fsGenero div {
+    height: 30px;
+    padding-top: 0;
+}
+
+.formul .fsPessoal .ColEsqPes .linhaDados div {
+    height: 30px;
+    padding-top: 8px;
+}
+
+.formul .fsPessoal .fsGenero {
+    float: right;
+    margin: 0 10px 0 0;
+    padding-bottom: 0;
+}
+
+.formul .fsMatricula .ColDirMat {
+    float: right;
+}
+
+.formul .fsMatricula div {
+    height: 30px;
+    padding-top: 0;
+}
+
+.fsCartao {
+    width: 280px;
+    margin: 35px auto 5px auto;
+}
+
+.formul .entDireita {
+    margin-right: 20px;
+    float: right;
+}
