@@ -62,3 +62,11 @@ const carregarDadosEquipamento = (event) => {
     event.preventDefault();
   }
 };
+
+const cadeira = capturarElemento("#cadeira");
+const supino = capturarElemento("#supino");
+const remada = capturarElemento("#remada");
+
+cadeira.addEventListener("click", (event) => carregarDadosEquipamento(event));
+supino.addEventListener("click", (event) => carregarDadosEquipamento(event));
+remada.addEventListener("click", (event) => carregarDadosEquipamento(event));
