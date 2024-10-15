@@ -130,13 +130,20 @@ h4 {
 }
 
 .tabEquip .imgCel {
-    width: 100px;
+    width: 130px;
     background-color: #FFFFFF;
 }
 
 .imgCel img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+}
+
+#DescExe {
+    width: 250px;
+    height: 230px;
+    text-align: justify;
+    vertical-align: top;
 }
 
 .tabTitulo {
@@ -146,6 +153,10 @@ h4 {
 
 .tabSubTit {
     background-color: #802020;
+    text-align: center;
+}
+
+.tabSubTit>a {
     color: #FFFFFF;
 }
 
