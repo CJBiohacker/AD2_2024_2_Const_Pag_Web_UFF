@@ -1,7 +1,7 @@
 const capturarElemento = (nomeElemento) => document.querySelector(nomeElemento);
 
 const cadeiraExtensora = [
-  `../imagens/CadeiraExtensora.png`,
+  `./imagens/CadeiraExtensora.png`,
   `Cadeira Extensora`,
   `O principal movimento articular realizado na cadeira extensora é a extensão de joelho, portanto
   o quadríceps (vasto lateral, vasto medial, vasto intermédio e reto femoral são os principais
@@ -10,7 +10,7 @@ const cadeiraExtensora = [
 ];
 
 const supinoVertical = [
-  `../imagens/SupinoVertical.png`,
+  `./imagens/SupinoVertical.png`,
   `Supino Vertical`,
   `O supino vertical é um exercício popular e eficaz para desenvolver força, tamanho e definição nos 
     músculos da parte superior do corpo. Ao usar uma máquina de peso guiada, este exercício oferece uma 
@@ -19,7 +19,7 @@ const supinoVertical = [
 ];
 
 const remadaBaixa = [
-  `../imagens/RemadaBaixa.png`,
+  `./imagens/RemadaBaixa.png`,
   `Remada Baixa`,
   `A Remada Baixa é um exercício de máquina para costas feito sentado no banco usando a barra triângulo. 
     A Remada trabalha inúmeros músculos como o lombar, latíssimo do dorso, trapézio, deltoide posterior e 
