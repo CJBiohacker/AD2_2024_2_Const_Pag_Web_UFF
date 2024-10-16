@@ -6,6 +6,6 @@ const planoAcademia = capturarElemento("#plano-academia");
 const planoNatacao = capturarElemento("#plano-natacao");
 const planoCombo = capturarElemento("#plano-combo");
 
-planoAcademia.addEventListener("click", () => abrePaginaPlano("1_plano-academia.html"));
-planoNatacao.addEventListener("click", () => abrePaginaPlano("1_plano-natacao.html"));
-planoCombo.addEventListener("click", () => abrePaginaPlano("1_plano-combo.html"));
+planoAcademia.addEventListener("click", () => abrePaginaPlano("plano-academia.html"));
+planoNatacao.addEventListener("click", () => abrePaginaPlano("plano-natacao.html"));
+planoCombo.addEventListener("click", () => abrePaginaPlano("plano-combo.html"));
